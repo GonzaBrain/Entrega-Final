@@ -1,0 +1,83 @@
+@import '../base/variables';
+@import "../base/listas";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*height: 100%; */
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+        margin: 0;
+        background-color: nth($colores , 1);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        
+
+   
+    header{
+        nav{
+            background-color: $bg-header;
+            color: $text-color;
+            div{
+                ul{
+                    a{
+                        font-family: 'MBold';
+                    }
+                }
+            }
+        
+        }
+    }
+
+
+
+
+
+        main{
+            div{
+                .banner {
+                    width: 100%;
+                }
+            }}
+
+            section{
+                h2 {
+                    text-align: center;
+                    margin-top: 50px;
+                    font-family: 'Rubik Glitch', cursive;
+                    color: nth($colores , 6);
+                }
+            }
+
+
+        
+            footer {
+                background-color: $bg-footer;
+                padding: 1em 0;
+                text-align: center;
+                margin-top: auto;
+        }
+    }
+
+
+
+
+ 
+
+
+
+    
+
+
+
+
+
+

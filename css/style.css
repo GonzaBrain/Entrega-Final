@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*height: 100%; */
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body header nav {
+  background-color: #1f0e61;
+  color: white;
+}
+body header nav div ul a {
+  font-family: "MBold";
+}
+body main div .banner {
+  width: 100%;
+}
+body section h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Rubik Glitch", cursive;
+  color: crimson;
+}
+body footer {
+  background-color: #161616;
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.contenedor {
+  /*display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+  overflow: hidden;
+  position: relative;*/
+  background-color: #f7f7f7;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /*flex-direction: row;*/
+  background-color: blue;
+}
+
+.contenedor__1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contenedor__2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-1 {
+  width: 60%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.img-2 {
+  width: 60%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.img-1:hover {
+  transform: scale(1.1);
+  transition: all 3s;
+}
+
+.img-2:hover {
+  transform: scale(1.1);
+  transition: all 3s;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  .img-1 {
+    width: 50%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+  .img-2 {
+    width: 50%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin-right: 30%;
+    margin-top: 30px;
+  }
+  .text-img {
+    display: flex;
+    justify-content: end;
+  }
+}
+@font-face {
+  font-family: "MBold";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+/*# sourceMappingURL=style.css.map */
